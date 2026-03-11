@@ -1,6 +1,6 @@
 cask "ghostride" do
   version "1.0.0"
-  sha256 "a7082044437a2507ecad48b8d7eca6faa78262a7c8d1268f097906db029bfbd4"
+  sha256 "49a687f2c3f9616f232ff024b84da897451632c7c27212ad7c2758411342dd34"
 
   url "https://github.com/goforward227-ctrl/ghostride/releases/download/v#{version}/Ghostride-#{version}-arm64.zip"
   name "Ghostride"
