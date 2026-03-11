@@ -16,6 +16,9 @@ cask "ghostride" do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Ghostride.app"],
                    sudo: false
+    system_command "/usr/bin/codesign",
+                   args: ["--deep", "--force", "--sign", "-", "#{appdir}/Ghostride.app"],
+                   sudo: false
   end
 
   zap trash: [
