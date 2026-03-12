@@ -1,31 +1,31 @@
-# Homebrew Tap for Ghostride
+# Homebrew Tap for Ghostry
 
 Menu bar app for monitoring and approving Claude Code sessions.
 
 ## Installation
 
 ```bash
-brew tap goforward227-ctrl/ghostride
-brew install --cask ghostride
+brew tap goforward227-ctrl/ghostry
+brew install ghostry
 ```
 
 ## Updating
 
 ```bash
-brew upgrade --cask ghostride
+brew upgrade ghostry
 ```
 
 ## Uninstallation
 
 ```bash
-brew uninstall --cask ghostride
+brew uninstall ghostry
 ```
 
-## About Ghostride
+## About Ghostry
 
 - Auto-detect running Claude Code sessions
 - One-click approve/reject tool-use prompts
 - Bulk approve all pending prompts
 - Per-process auto-approve mode
 
-See [Ghostride repository](https://github.com/goforward227-ctrl/ghostride) for more details.
+See [Ghostry repository](https://github.com/goforward227-ctrl/ghostry) for more details.
