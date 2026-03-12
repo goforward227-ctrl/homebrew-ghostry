@@ -1,8 +1,8 @@
 cask "ghostride" do
-  version "1.0.0"
-  sha256 "49a687f2c3f9616f232ff024b84da897451632c7c27212ad7c2758411342dd34"
+  version "1.0.1"
+  sha256 "c8aff5985201223f0ea5e5db559cfbfd93ab33b78c1646f6a374989c4c0c2e12"
 
-  url "https://github.com/goforward227-ctrl/ghostride/releases/download/v#{version}/Ghostride-#{version}-arm64.zip"
+  url "https://github.com/goforward227-ctrl/ghostride/releases/download/v#{version}/Ghostride.zip"
   name "Ghostride"
   desc "Menu bar app for monitoring and approving Claude Code sessions"
   homepage "https://github.com/goforward227-ctrl/ghostride"
